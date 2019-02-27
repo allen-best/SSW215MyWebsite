@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Software Engineering Class #1</title>
+        <link rel="stylesheet" type="text/css" href="main.css"> 
+        <link rel="icon" href="https://scontent-dfw5-1.cdninstagram.com/vp/f9e7a9059cb0ff723940b8970aa2b66b/5CD7F4BF/t51.2885-19/s150x150/12558479_806695909453896_697578113_a.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+      <div id="loader"></div>
+      <div style="display:none;" id="myDiv" class="animate-bottom">
+          <div id="header">
+              <!-- Title -->
+              <h1>Allen Best Jr.</h1>
+              <hr>
+              <nav class="topnav" id="myTopnav">
+                <a class= "isDisabled" id="logo" href="#"></a>
+                <a class="navbar-tags button" href="#about">About</a>
+                <a class="navbar-tags button" href="#education">Education</a> 
+                <a class="navbar-tags button" href="#skills">Skills</a> 
+                <a class="navbar-tags button" href="#classes">Classes</a>
+                <a class="navbar-tags button" href="#Resume">Resume</a>
+                <a href="javascript:void(0);" class="icon" onclick="topNav()">
+                  <i class="fa fa-bars fa-2x" width="200px"></i>
+                </a>
+              </nav>
+          </div>
+          <div id="mainbody">
+            <div id="top-of-page">
+              <!-- Picture with link to website for more informations -->
+              <div class="zoom">
+                <a href="https://allen-best.github.io">
+                  <img class="center circle" id="top-image" src="https://media.licdn.com/dms/image/C5103AQGMRCPu4JBuPw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=BFO59SjNUirVjjuVN8EN_gdPGgk0JbUThU6_uzouacA" width="25%">
+                </a>
+              </div>
+              <h4 id="intro-p">
+                A sophomore that has a high energy level, the ability to communicate effectively, and critical-thinking/reasoning abilities that is seeking an internship in the field of Software Engineering.
+              </h4>
+              <!-- Contact link, that mails to personal email -->
+              <h3 class="center-text button">
+                <button class="btn center-text" onclick="location.href='mailto:ajbest91@gmail.com'">Click here to contact me.</button>
+              </h3>
+            </div>
+              <div id="about">
+                <h3 class="center-text titles">About Me</h3>
+                <p>Allen pursues a Bachelor’s degree in Software Engineering. He believes this is possible with previous hands-on experience through small projects and FIRST robotics. He enjoys being challenged and working on projects that require him to work outside his comfort and knowledge set. He continues to learn new languages and development techniques are important to him. He is currently seeking an internship or research opportunity that will allow him to utilize his problem-solving skills and attention to detail to further develop his abilities in the field of Software Engineering.<span id="dots">...</span></p>
+                <p id="more">As an undergraduate Software Engineering student, He plans to grow up doing something He's very passionate in. As of right now He's very invested into getting his web development skills better. After being profficient in web development, he would like to transfer those skills to app development. Ever since he was younger, He's always had a niche for technology whether it was playing with his parents computer, playing video games or using a variety of different apps. Now, He realizes he really loves programming and this helped him decide to study Software Engineering and He's only been motivated to learn more and work harder. For my short term goal, I hope to keep growing to possibly become a Senior Software Engineer for a well known company. After this I hope to grow into more of a managenment goal. For my long term goal, I hope to one day run my own software business. I know that for this to happen I will need to know the business side as well making this major even more approachable. </p>
+                <p>
+                  <button id="myBtn" onclick="toggleButton()" >See more</button>
+                </p>
+              </div>
+              <div id="education">
+                <!-- Stevens Video from YouTube -->
+                <h3 class="center-text titles">College: Stevens Institute of Technology</h3>
+                <iframe width="75%" height="315" class="center" src="https://www.youtube.com/embed/52Vmukuf-Ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p id="margin-fix">Stevens will become a premier student-centric technological research university, focusing on six “foundational pillars,” areas of true societal need where Stevens possesses significant depth and expertise: artificial intelligence, machine learning, and cybersecurity; data science and information systems; complex systems and networks; financial systems and technologies; biomedical engineering, healthcare, and life sciences; and resilience and sustainability. As our education and research capacity grows in these areas, so will our influence.</p>
+                <h3 class="center-text button">
+                  <button class="btn center-text stevens">Stevens Website</button>
+                </h3>
+              </div>
+              <!-- Unordered list of skills -->
+              <div id="skills">
+                <h3 class="center-text titles">skills</h3>
+                <div class="skills-list">
+                  <ul>  
+                    <li class="skills-item"> HTML </li> 
+                    <li class="skills-item"> CSS </li>
+                    <li class="skills-item"> Javascript </li> 
+                  </ul>
+                </div>
+                <div class="skills-list">
+                  <ul>  
+                    <li class="skills-item"> Leadership </li> 
+                    <li class="skills-item"> Communication </li>
+                    <li class="skills-item"> Teamwork </li> 
+                  </ul>
+                </div>
+                <div class="skills-list">
+                  <ul>  
+                    <li class="skills-item"> Research </li> 
+                    <li class="skills-item"> Development </li>
+                    <li class="skills-item"> Management </li> 
+                  </ul>
+                </div>
+              </div>
+              <div id="classes">
+                <!-- Tables with classes from each semester -->
+                <h2 class="center-text titles"> Classes </h2>
+                <div class="table-style">
+                <h3 class="table-titles center-text">Semester 1</h3>
+                  <table>
+                  <tr> 
+                    <th>Writing and Communications</div></th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> General Chemistry w/ Lab </th> 
+                    <td> 4 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Design I </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Differential Calculus </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Integral Calculus </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Graphics </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Experiences </th> 
+                    <td> 1 credit </td>
+                  </tr>
+                  <tr> 
+                    <th> Intro to Programming </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                </table>
+               </div>
+               <div class="table-style">
+                <h3 class="table-titles center-text">Semester 2</h3>
+                  <table>
+                  <tr> 
+                    <th> Biology w/ Lab </th> 
+                    <td> 4 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Knowledge, Nature, Culture </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Design II </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Series, Vectors, Functions & Surface </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Calculus of Two Variables </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Intro to Entrepreneurial Thinking </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Badmitton </th> 
+                    <td> 0 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Mechanics </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="table-style">
+                <h3 class="table-titles center-text">Semester 3</h3>
+                  <table>
+                  <tr> 
+                    <th> Microeconomics </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Mechanics of Solids </th> 
+                    <td> 4 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Design III </th> 
+                    <td> 2 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Circuits and Systems </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Diffferential Equations </th> 
+                    <td> 4 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Archery </th> 
+                    <td> 0 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Electricity and Magnetism </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="table-style">
+                <h3 class="table-titles center-text">Semester 4</h3>
+                  <table>
+                  <tr> 
+                    <th> Individual Software Engineering </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Intro to Computer Science </th> 
+                    <td> 4 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Engineering Design IV </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Thermodynamics </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Materials Processing </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Discrete Mathematics </th> 
+                    <td> 3 credits </td>
+                  </tr>
+                  <tr> 
+                    <th> Soccer </th> 
+                    <td> 0 credits </td>
+                  </tr>
+                  </table>
+                </div>
+              </div>
+              <div id="resume">
+                <!-- Tables with classes from each semester -->
+                <h2 class="center-text titles"> Resume </h2>
+                <button class="collapsible">Maritime Security Center</button>
+                <div class="content">
+                  <ul>
+                    <li>Ran an automated hacking script on a raspberry pi that was able to identify and hack drones to gain control of flight and navigation system</li>
+                    <li>Contributed technical documentation on airspace and drone usage for research paper </li>
+                    <li>Successfully proved technical feasibility of a “No Drone Zone” system that could neutralize a drone while in flight</li>
+                  </ul>
+                </div>
+                <button class="collapsible">CodeAdvantage</button>
+                <div class="content">
+                  <ul>
+                    <li>Taught critical reasoning, logical thinking, and creative expression while introducing game development basics to children</li>
+                    <li>Provided a supportive, frustration-free environment to learn the building blocks of robotics and coding</li>
+                  <ul>
+                </div>
+                <button class="collapsible">4 Pillars Tutoring Institution</button>
+                <div class="content">
+                  <ul>
+                    <li>Created a tutoring center by turning home garage into a classroom that has all of the materials needed for academics</li>
+                    <li>Tutored STEM classes by creating practice problems and reviewing it with the student</li>
+                    <li>Helped local students increase their school test scores and understanding of academic topics</li>
+                  </ul>
+                </div>
+              </div>
+              <button id="myBtn" class="spacing" onclick=" changeColor()" >Change Color</button>
+          </div>
+        </div>
+          <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
